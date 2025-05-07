@@ -1,0 +1,42 @@
+body,
+body * {
+box-sizing:border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+width: 100%; /*elemento turinio plotis*/
+padding-top: 60px;
+padding-bottom: 60px;
+padding-left: 20px;
+padding-right: 20px;
+/*border: 40px solid #000*/
+}
+
+.row {
+width: 1000%;
+background-color: red;
+}
+
+.row-short {
+width: 600px;
+background-color: rgb(75, 148, 68);
+}
+
+.bg-blue {
+ background-color: rgb(104, 118, 192);
+}
+
+@media (max-width: 500px) {
+    .row {width: 800px;
+    }
+    .row-short {
+    width: 400px;
+    }
+}
+
