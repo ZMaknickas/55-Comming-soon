@@ -1,4 +1,4 @@
-body,
+body,     /*features for every section*/
 body * {
 box-sizing:border-box;
 margin: 0;
@@ -19,7 +19,7 @@ padding-right: 20px;
 }
 
 .row {
-width: 1000%;
+width: 1000px;
 background-color: red;
 }
 
